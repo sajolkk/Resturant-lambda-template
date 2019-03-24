@@ -1,0 +1,126 @@
+.header-area{
+    background: #382E15;
+    
+}
+
+.navbar-inverse{
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    border: none;
+    padding: 40px 0 38px 16px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #DFAE5B; 
+    transition: 1s;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    padding: 0 0;
+    border-width: 0 0;
+}
+
+.social-icon a i {
+    font-size: 22px;
+    padding: 40px 3px 40px 0px;
+    color: #DFAE5B;
+}
+.slider-area,.carousel-inner{
+    height: 600px;
+    width: 100%;
+}
+
+
+.about-area{
+    background: url(../img/service.jpg);
+    background-position: cover;
+    width: 100%;
+    height: auto;
+}
+.about-title{
+    background: url(../img/symbols.png)no-repeat scroll center bottom;
+    color: #CC9900;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.author-photo{
+    padding-top: 25px;
+}
+
+.ingredient-area{
+    background: green;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.ingredient-text{
+    background: rgba(0, 0, 0, 0.32);
+    color: white;
+}
+.ingredient-text>p,>h2{
+    padding: 40px 70px 10px 70px;
+    text-align: center;
+}
+.ingredient-text img{
+    padding: 5px 0 40px 80px;
+}
+
+.menu-area{
+    background: url(../img/service.jpg);
+    float: left;
+
+}
+.menu-title{
+    text-align: center;
+    background: url(../img/symbols.png) no-repeat scroll center bottom;
+    color: #E0B100;
+    padding-bottom: 35px;
+}
+
+.menu-list h2{
+     font-size: 20px;
+     border-bottom: 1px solid #cc9900;
+     padding-bottom: 5px;
+     margin-top: 22px;
+     color:#cc9900 
+  }
+
+.alignright{
+    float: right;
+}
+
+
+.menu-list.special{
+    padding: 20px;
+    border: 1px solid #cc9900 ;
+    position: relative;
+}
+.menu-list.special::after{
+    position: absolute;
+    content: "special";
+    text-transform: uppercase;
+    color: white;
+    background: #cc9900;
+    top: -20px;
+    right: -1px;;
+}
+
+
+.section-padding{
+    padding: 60px;
+    
+}
+
+
+
+
+
